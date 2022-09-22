@@ -1,0 +1,44 @@
+
+        body {
+            background-color: rgb(215, 222, 167);
+        }
+
+        h2 {
+            font-size: 1rem;
+            color: black;
+            font-style: normal;
+        }
+
+        h3 {
+            text-decoration: underline wavy;
+            text-align: center;
+            color: white;
+        }
+
+        p {
+            text-align: end;
+            font-style: italic;
+        }
+
+        section {
+            box-shadow: 5px 5px rgb(0,0,0,0.5);
+            border-radius: 10px;
+            background-color: blueviolet;
+            padding: 10px;
+        }
+
+        section h2 {
+            margin-left: 10%;
+        }
+
+        #felinos-domesticos{
+            background-color: darkmagenta;
+        }
+
+        img{
+            border-radius: 5px;
+            box-shadow: 5px 5px rgb(0,0,0,0.5);
+            
+        }
+
+    
