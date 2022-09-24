@@ -173,6 +173,9 @@
 }
 
 .celular{
-    
-
+   display: inline;
+   position: absolute; 
 }
+.overlap{
+    position:relative;
+    margin:1.5rem 0rem 0rem 10rem;}
