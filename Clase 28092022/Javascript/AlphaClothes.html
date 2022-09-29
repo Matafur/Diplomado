@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        const precioCamiseta = 25000
+        let cantidadCamisetas
+        let valorTotal
+
+        alert("Bienvenido a AlphaClothes!")
+        cantidadCamisetas = prompt("Cuantas camisetas va a llevar el comprador?")
+
+        valorTotal = precioCamiseta * cantidadCamisetas
+
+        if (cantidadCamisetas > 10) {
+            //aca se aplica el 25% de descuento al valor total
+            let descuento = valorTotal * (25 / 100) // valorTotal * 0.25
+            alert("el valor total a pagar es de: " + (valorTotal - descuento))
+        } else {
+            if (cantidadCamisetas > 3) {
+                //aca se aplica el 10% de descuento al valor total
+                let descuento = valorTotal * (10 / 100) // valorTotal * 0.1
+                alert("el valor total a pagar es de: " + (valorTotal - descuento))
+            }else{
+                alert("No tienes descuento, el valor a pagar es: " + valorTotal)
+            }
+        }
+
+        /*
+        if (cantidadCamisetas > 3 && cantidadCamisetas <= 10) {
+            //aca se aplica el 10% de descuento al valor total
+            let descuento = valorTotal * (10 / 100) // valorTotal * 0.1
+            alert("el valor total a pagar es de: " + (valorTotal - descuento))
+        }
+        */
+
+    </script>
+    
+</body>
+</html>
